@@ -1,0 +1,171 @@
+/*COMPONENT CLASSES*/
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-height: 100px;
+  min-width: 150px;
+  border: 2px solid;
+  padding: 5px;
+  background-color: #003923;
+  color: #ffffff;
+  border-color: #007146;
+  border-radius: 10px;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.close {
+  float: right;
+  color: #ffffff;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(#007146 35%, #00b456 100%);
+  cursor: pointer;
+}
+
+.close:hover {
+  background: linear-gradient(#00a869 35%, #00ff81 100%);
+}
+
+.close:active {
+  background: linear-gradient(#00e28c 35%, #00ffac 100%);
+}
+
+.close:disabled {
+  background: linear-gradient(#001c11 35%, #002d1a 100%);
+  cursor: initial;
+}
+
+.popbtn {
+  background: #007146;
+  border: none;
+  padding: 5px 0px 5px 0px;
+  width: 100%;
+  min-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.popbtn:hover {
+  background: #00a869;
+}
+
+.popbtn:active {
+  background: #00e28c;
+}
+
+.popbtn:disabled {
+  background: #001c11;
+  cursor: initial;
+}
+
+.poptable {
+  margin: 0px auto;
+  border-collapse: separate;
+  border-spacing: 1em 1em;
+}
+
+.barelem {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.barbtn {
+  padding: 0px 10px 0px 10px;
+}
+
+/*COMPONENT IDS*/
+
+#statsbar {
+  position: absolute;
+  bottom: 50px;
+  height: 50px;
+  width: 0px;
+  opacity: 1;
+  display: block;
+  background: #00b456;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  transition: width 1s, opacity 2s;
+}
+
+/*TAGS*/
+
+table {
+  table-layout: fixed;
+}
+
+td {
+  word-wrap: break-word;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*ALIGNMENT*/
+
+.formtext {
+  text-align: right;
+}
+
+.tablecenter {
+  margin: 0px auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+/*DIMENSIONS*/
+
+.statscol {
+  width: 25px ;
+}
+
+/*FONT COLOR*/
+
+.white {
+  color: #ffffff;
+}
+
+.dreamgreen {
+  color: #007146;
+}
+
+.naturalgreen {
+  color: #00b456;
+}
+
+.red {
+  color: #ff0000;
+}
+
+/*BACKGROUND COLOR*/
+
+.bgwhite {
+  background: #ffffff;
+}
+
+.bgdreamgreen {
+  background: #007146;
+}
+
+.bgnaturalgreen {
+  background: #00b456;
+}
+
+.bgred {
+  background: #ff0000;
+}
