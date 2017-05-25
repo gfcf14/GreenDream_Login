@@ -15,8 +15,11 @@ Languages used: HTML5, CSS3, JavaScript, PHP
 Important features of each:
 
 HTML5: Forms
+
 CSS3: Transitions, Opacity, Background gradients
+
 JavaScript: jQuery, Ajax for image upload, date and time
+
 PHP: Database connection, Prepared mySQLi statements, inserting, getting and updating rows (Users), use of include for code reuse
 
 Notes: Some values, such as the ones in connect.php (which connect to the database) have been changed to avoid disclosing personal info/database info/website paths
