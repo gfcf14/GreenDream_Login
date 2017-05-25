@@ -10,7 +10,7 @@ This is a basic login system that supports:
 
 Demonstration and brief code explanation: https://youtu.be/cLpbKdTY_xo
 
-To test: Please go to http://www.gfcf14greendream.com/Login/index.php
+To test: http://www.gfcf14greendream.com/Login/index.php
 
 Languages used: HTML5, CSS3, JavaScript, PHP
 
